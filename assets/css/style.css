@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+:root {
+    --light-grey: #EAECE5;
+    --font-grey: #383838;
+    --font-small: 16px 'Inter', sans-serif, normal;
+    --font-small-bold: 16px 'Inter', sans-serif, bold;
+    --font-medium: 20px 'Inter', sans-serif, normal;
+    --font-bold: 32px 'Inter', sans-serif, bold;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+/* Estilização do topo da página (header)  */
+
+#primary-header {
+    margin: 0;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.3 ) 100%), url(../medias/background_header.svg);
+    width: 100%;
+    height: 38vw;
+}
+
+    #primary-header img {
+        padding: 2% 0 0 3%;
+        margin-bottom: 2px;
+    }
+
+    #header-text {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        margin-left: 10vw;
+        padding: 2%;
+    }
+
+        #header-text p {
+            font: var(--font-medium);
+            color: white;
+            padding: 1%;
+        }
+
+        #big-text {
+            font-size: 40px !important;
+            margin-bottom: 32px;
+        }
+
+/* Estilização da parte central da página (main) */
+
+main {
+    display: flex;
+    flex-direction: column;
+}        
+
+    #main-header {
+        background-color: var(--light-grey);
+        color: #122235;
+        font: var(--font-medium);
+        display: flex;
+        height: 170px;
+        width: 100%;
+        justify-content: space-around;
+    }
+
+        .flex-list {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+
+        }
+
+        .icon {
+            width: 15%;
+            height: 20%;
+        }
+
+        .main-header-text {
+            align-items: center;
+            text-align: center;
+        }
+
+    #main-center {
+        display: flex;
+        justify-content: space-around;
+        height: 480px;
+    }
+
+        #video {
+            margin: 80px 30% 80px 0 ;
+            
+        }
+
+        .center-child {
+            padding-left: 10%;
+        }
+
+        #center-text-div {
+            padding-left: 5% !important;
+            padding-right: 10%; 
+            margin: 80px 0 80px 0;
+            text-align: start;
+        }
+
+        .center-text {
+            margin: 0 0 45px 0;
+            width: 90%;
+            font: var(--font-small);
+            color: var(--font-grey);
+        }
+
+        #blue-text {
+            color: #247BA0;
+            font: var(--font-bold)
+        }
+
+        #main-footer {
+            background-color: #247BA0;
+            color: white;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .main-footer-text {
+            text-align: center;
+            margin: 80px 0 34px 0;
+            font: var(--font-bold);
+        }
+
+        .main-footer-section {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            padding-bottom: 80px;
+        }
+
+            .block {
+                display: flex;
+                align-items: center;
+                width: 41.5%;
+                height: 172px;
+                background-color: var(--light-grey);
+                color: var(--font-grey);
+                font: var(--font-small);
+                border-radius: 16px;
+            }
+
+                .block div img {
+                    padding-left: 10%;
+                }
+
+                .text-block {
+                    padding: 20% 20% 20% 10%;
+                }
+
+/* Estilização do rodapé da página (footer) */
+
+#primary-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 370px;
+    background-color: var(--light-grey);
+}
+
+    #primary-footer div {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+    }
+
+    #footer-text {
+        font: var(--font-bold);
+        color: var(--font-grey);
+        padding-top: 3%;
+    }
+
+    #footer-button {
+        background-color: #247BA0;
+        font: var(--font-small-bold);
+        color: white;
+        border: 0px;
+        border-radius: 16px;
+        padding: 16px;
+        width: 25%;
+        height: 30%;
+    }
