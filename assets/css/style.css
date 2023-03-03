@@ -189,4 +189,12 @@ main {
         padding: 16px;
         width: 25%;
         height: 30%;
+        cursor: pointer;
+    }
+
+    #footer-button:hover {
+        background-color: #104a63c9;
+        width: 25.5%;
+        height: 30.5%;
+        box-shadow: 2px 3px #0f2f57;
     }
